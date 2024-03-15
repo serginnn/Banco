@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.26)
+project(lab9)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(lab9 main.cpp
+        Pessoa.h
+        Pessoa.cpp
+        FilaBanco.h
+        FilaBanco.cpp
+        ClienteBanco.cpp
+        ClienteBanco.h
+)
